@@ -1,0 +1,13 @@
+.header__navigation {
+  display: flex;
+  flex-direction: row;
+  margin-right: calc(140% / (1440 / 100));
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 900px) {
+  .header__navigation {
+    margin-right: calc(75% / (900 / 100));
+  }
+}

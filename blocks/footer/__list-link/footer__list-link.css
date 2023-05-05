@@ -1,0 +1,12 @@
+.footer__list-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footer__list-link:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,6 @@
+.footer__line {
+  background: #ffffff;
+  height: 2px;
+  margin-left: calc(136% / (1440 / 100));
+  margin-right: calc(136% / (1440 / 100));
+}

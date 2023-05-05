@@ -1,0 +1,8 @@
+.gear__photo {
+  background-image: url(../../../images/gearBg.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}

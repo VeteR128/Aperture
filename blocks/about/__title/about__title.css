@@ -1,0 +1,12 @@
+.about__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(10px + 4 * (100vw / 1440));
+  line-height: 143%;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  margin-top: calc(466% / (1440 / 100));
+  margin-bottom: 0;
+}

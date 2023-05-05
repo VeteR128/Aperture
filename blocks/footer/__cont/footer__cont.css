@@ -1,0 +1,14 @@
+.footer__cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: calc(136% / (1440 / 100));
+  margin-right: calc(136% / (1440 / 100));
+  align-items: center;
+  margin-top: calc(36% / (1440 / 100));
+  margin-bottom: calc(36% / (1440 / 100));
+}
+.footer__cont:last-child {
+  margin-top: calc(56% / (1440 / 100));
+  margin-bottom: calc(104% / (1440 / 100));
+}

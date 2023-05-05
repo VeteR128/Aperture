@@ -1,0 +1,22 @@
+.Featured__card-button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 133%;
+
+  letter-spacing: 0.4px;
+  margin-left: calc(30% / (576 / 100));
+  color: #000000;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 9px 13px 10px;
+  border: none;
+  margin-bottom: 30px;
+  transition: all 1s;
+}
+.Featured__card-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: all 1s;
+  border: 1px solid white;
+}

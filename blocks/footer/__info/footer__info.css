@@ -1,0 +1,9 @@
+.footer__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: calc(136% / (1440 / 100));
+  margin-right: calc(238% / (1440 / 100));
+  margin-top: calc(100% / (1440 / 100));
+  margin-bottom: calc(36% / (1440 / 100));
+}

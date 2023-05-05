@@ -1,0 +1,12 @@
+.Featured__card-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(10px + 4 * (100vw / 1440));
+  line-height: 143%;
+  margin-left: calc(30% / (576 / 100));
+  color: #c0c0c0;
+  min-height: 80px;
+  margin-top: 15px;
+  margin-bottom: 17px;
+  margin-right: 30px;
+}

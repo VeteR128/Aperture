@@ -1,0 +1,9 @@
+.page {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1440px) {
+  .page {
+    max-width: 1440px;
+  }
+}

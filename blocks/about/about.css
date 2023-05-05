@@ -1,0 +1,7 @@
+.about {
+  background-image: url(../../images/bgabout.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,8 @@
+.companies__image {
+  max-width: 128px;
+  width: 15%;
+  margin-right: 20px;
+}
+.companies__image:last-of-type {
+  margin-right: 0;
+}

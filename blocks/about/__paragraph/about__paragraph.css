@@ -1,0 +1,18 @@
+.about__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(8px + 6 * (100vw / 1440));
+  line-height: 143%;
+  text-align: center;
+  color: #c0c0c0;
+  margin: 0;
+  margin-left: calc(430% / (1440 / 100));
+  margin-right: calc(430% / (1440 / 100));
+  margin-bottom: 13px;
+}
+@media screen and (max-width: 768px) {
+  .about__paragraph {
+    margin-left: calc(50% / (768 / 100));
+    margin-right: calc(50% / (768 / 100));
+  }
+}

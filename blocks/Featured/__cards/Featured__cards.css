@@ -1,0 +1,10 @@
+.Featured__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+  margin-right: calc(136% / (1440 / 100));
+  margin-left: calc(136% / (1440 / 100));
+  margin-top: 42px;
+  margin-bottom: calc(100% / (1440 / 100));
+}

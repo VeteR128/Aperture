@@ -1,0 +1,8 @@
+.header__logo {
+  margin-left: calc(152% / (1440 / 100));
+}
+@media screen and (max-width: 900px) {
+  .header__logo {
+    margin-left: calc(75% / (900 / 100));
+  }
+}

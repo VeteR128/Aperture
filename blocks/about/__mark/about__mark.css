@@ -1,0 +1,14 @@
+.about__mark {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #ffffff;
+  list-style-type: none;
+  margin-right: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.about__mark:last-child {
+  margin-right: 0;
+}

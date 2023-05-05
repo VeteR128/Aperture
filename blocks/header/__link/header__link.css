@@ -1,0 +1,22 @@
+.header__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(9px + 4 * (100vw / 1440));
+  line-height: 154%;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 32px;
+}
+.header__link:first-child {
+  margin-right: 56px;
+}
+@media screen and (max-width: 900px) {
+  .header__link {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__link {
+    display: none;
+  }
+}

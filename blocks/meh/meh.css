@@ -1,0 +1,14 @@
+.meh {
+  background-image: url(../../images/mehBg.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.active.meh {
+  background-image: url(../../images/mehBgTwo.jpg);
+}
+.activeTwo.meh {
+  background-image: url(../../images/mehBgThree.jpg);
+}

@@ -1,0 +1,8 @@
+.companies__images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: calc(182% / (1440 / 100));
+  margin-left: calc(182% / (1440 / 100));
+  margin-bottom: calc(140% / (1440 / 100));
+}

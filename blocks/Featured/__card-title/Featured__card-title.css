@@ -1,0 +1,14 @@
+.Featured__card-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(10px + 4 * (100vw / 1440));
+  line-height: 143%;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-top: calc(421% / (576 / 100));
+  margin-left: calc(30% / (576 / 100));
+  margin-bottom: 0;
+}

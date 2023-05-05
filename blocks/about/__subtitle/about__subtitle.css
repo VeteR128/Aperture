@@ -1,0 +1,10 @@
+.about__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(25px + 29 * (100vw / 1440));
+  line-height: 110%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 18px;
+}

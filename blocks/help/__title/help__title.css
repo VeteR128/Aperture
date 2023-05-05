@@ -1,0 +1,14 @@
+.help__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(30px + 10 * (100vw / 1440));
+  line-height: 105%;
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-top: calc(113% / (1440 / 100));
+  margin-bottom: 13px;
+  margin-left: calc(355% / (1440 / 100));
+  margin-right: calc(355% / (1440 / 100));
+}

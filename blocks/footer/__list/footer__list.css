@@ -1,0 +1,8 @@
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 55px;
+}
+.footer__list:last-child {
+  margin-right: 0;
+}
