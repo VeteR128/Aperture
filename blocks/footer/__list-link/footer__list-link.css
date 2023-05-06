@@ -1,7 +1,7 @@
 .footer__list-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: calc(7px + 7 * (100vw / 1440));
   line-height: 143%;
 
   color: #ffffff;

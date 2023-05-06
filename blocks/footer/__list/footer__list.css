@@ -6,3 +6,8 @@
 .footer__list:last-child {
   margin-right: 0;
 }
+@media screen and (max-width: 768px) {
+  .footer__list {
+    margin-right: 15px;
+  }
+}

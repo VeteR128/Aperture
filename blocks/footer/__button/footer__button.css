@@ -15,10 +15,22 @@
   max-width: 460px;
   width: 100%;
   transition: all 1s;
+  border: 1px solid black;
+  cursor: pointer;
 }
 .footer__button:hover {
   background-color: #000000;
   color: #ffffff;
   transition: all 1s;
   border: 1px solid white;
+}
+@media screen and (max-width: 768px) {
+  .footer__button {
+    max-width: 130px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer__button {
+    padding: 4px 13px 5px;
+  }
 }

@@ -9,5 +9,20 @@
 @media screen and (max-width: 900px) {
   .header__navigation {
     margin-right: calc(75% / (900 / 100));
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__navigation {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__navigation {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: calc(15% / (480 / 100));
   }
 }

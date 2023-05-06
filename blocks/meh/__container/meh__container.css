@@ -3,3 +3,15 @@
   margin-right: calc(62% / (1440 / 100));
   margin-bottom: calc(204% / (1440 / 100));
 }
+@media screen and (max-width: 768px) {
+  .meh__container {
+    margin-top: calc(150% / (768 / 100));
+    margin-bottom: calc(120% / (768 / 100));
+  }
+}
+@media screen and (max-width: 540px) {
+  .meh__container {
+    margin-top: calc(150% / (540 / 100));
+    margin-bottom: calc(120% / (540 / 100));
+  }
+}

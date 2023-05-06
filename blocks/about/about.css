@@ -1,5 +1,6 @@
 .about {
-  background-image: url(../../images/bgabout.jpg);
+  background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%),
+    url(../../images/bgabout.jpg);
   background-position: center center;
   background-size: cover;
   display: flex;

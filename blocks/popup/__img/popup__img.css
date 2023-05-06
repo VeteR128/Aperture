@@ -1,0 +1,6 @@
+.popup__img {
+  margin-left: 210px;
+}
+.popup__img:hover {
+  opacity: 0.5;
+}

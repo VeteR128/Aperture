@@ -3,6 +3,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 133%;
+  max-width: 143px;
 
   letter-spacing: 0.4px;
   margin-left: calc(30% / (576 / 100));
@@ -13,10 +14,17 @@
   border: none;
   margin-bottom: 30px;
   transition: all 1s;
+  border: 1px solid black;
+  cursor: pointer;
 }
 .Featured__card-button:hover {
   background-color: #000000;
   color: #ffffff;
   transition: all 1s;
   border: 1px solid white;
+}
+@media screen and (max-width: 480px) {
+  .Featured__card-button {
+    padding: 4px 13px 5px;
+  }
 }

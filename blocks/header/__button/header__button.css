@@ -12,10 +12,17 @@
   border: none;
   padding: 9px 20px 13px;
   transition: all 1s;
+  border: 1px solid black;
+  cursor: pointer;
 }
 .header__button:hover {
   background-color: #000000;
   color: #ffffff;
   transition: all 1s;
   border: 1px solid white;
+}
+@media screen and (max-width: 480px) {
+  .header__button {
+    padding: 6px 20px 8px;
+  }
 }

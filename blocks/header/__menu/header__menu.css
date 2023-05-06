@@ -1,9 +1,15 @@
 .header__menu {
   display: none;
   margin-right: 15px;
+  max-width: 40px;
 }
 @media screen and (max-width: 768px) {
   .header__menu {
     display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__menu {
+    max-width: 30px;
   }
 }

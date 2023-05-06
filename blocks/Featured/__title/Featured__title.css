@@ -1,7 +1,7 @@
 .Featured__title {
   font-style: normal;
   font-weight: 400;
-  font-size: calc(30px + 10 * (100vw / 1440));
+  font-size: calc(25px + 15 * (100vw / 1440));
   line-height: 105%;
 
   text-align: center;

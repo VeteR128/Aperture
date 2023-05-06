@@ -3,3 +3,8 @@
   flex-direction: row;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .footer__container-info {
+    margin-bottom: 10px;
+  }
+}

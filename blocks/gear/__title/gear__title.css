@@ -1,7 +1,7 @@
 .gear__title {
   font-style: normal;
   font-weight: 400;
-  font-size: calc(10px + 4 * (100vw / 1440));
+  font-size: calc(8px + 6 * (100vw / 1440));
   line-height: 143%;
 
   letter-spacing: 2px;
@@ -11,4 +11,9 @@
   margin-left: calc(100% / (720 / 100));
   margin-top: calc(173% / (720 / 100));
   margin-bottom: 6px;
+}
+@media screen and (max-width: 540px) {
+  .gear__title {
+    margin-left: 20px;
+  }
 }

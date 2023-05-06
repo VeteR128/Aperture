@@ -1,0 +1,8 @@
+.footer__subscribe {
+  margin-right: 5px;
+}
+@media screen and (max-width: 768px) {
+  .footer__subscribe {
+    margin-right: 0px;
+  }
+}

@@ -6,3 +6,12 @@
   justify-content: end;
   align-items: flex-end;
 }
+@media screen and (max-width: 653px) {
+  .gear__photo .about__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .gear__photo .about__container .about__mark {
+    margin-bottom: 15px;
+  }
+}

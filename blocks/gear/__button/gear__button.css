@@ -14,6 +14,8 @@
   margin-left: calc(100% / (720 / 100));
   margin-bottom: calc(153% / (720 / 100));
   transition: all 1s;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .gear__button:hover {
@@ -21,4 +23,12 @@
   color: #ffffff;
   transition: all 1s;
   border: 1px solid white;
+}
+@media screen and (max-width: 540px) {
+  .gear__button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 4px 13px 5px;
+    font-size: 12px;
+  }
 }

@@ -1,9 +1,15 @@
 .footer__subscribe-subtitle {
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: calc(7px + 6 * (100vw / 1440));
   line-height: 154%;
   margin-bottom: 0;
   margin-top: 0;
   color: #c0c0c0;
+}
+@media screen and (max-width: 768px) {
+  .footer__subscribe-subtitle {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }

@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+  .footer__info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

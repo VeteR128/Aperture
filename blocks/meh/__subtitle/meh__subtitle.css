@@ -8,3 +8,8 @@
   color: #c0c0c0;
   margin: 0;
 }
+@media screen and (max-width: 580px) {
+  .meh__subtitle {
+    text-align: center;
+  }
+}

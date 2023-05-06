@@ -8,3 +8,19 @@
   margin-top: 42px;
   margin-bottom: calc(100% / (1440 / 100));
 }
+@media screen and (max-width: 768px) {
+  .Featured__cards {
+    margin-right: calc(50% / (768 / 100));
+    margin-left: calc(50% / (768 / 100));
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Featured__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-right: calc(15% / (480 / 100));
+    margin-left: calc(15% / (480 / 100));
+  }
+}

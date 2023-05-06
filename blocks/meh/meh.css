@@ -12,3 +12,8 @@
 .activeTwo.meh {
   background-image: url(../../images/mehBgThree.jpg);
 }
+@media screen and (max-width: 580px) {
+  .meh {
+    align-items: center;
+  }
+}

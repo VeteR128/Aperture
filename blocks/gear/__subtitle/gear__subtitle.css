@@ -1,11 +1,16 @@
 .gear__subtitle {
   font-style: normal;
   font-weight: 400;
-  font-size: calc(18px + 10 * (100vw / 1440));
+  font-size: calc(14px + 14 * (100vw / 1440));
   line-height: 114%;
 
   color: #ffffff;
   margin-left: calc(100% / (720 / 100));
   margin-top: 0;
   margin-bottom: 14px;
+}
+@media screen and (max-width: 540px) {
+  .gear__subtitle {
+    margin-left: 20px;
+  }
 }

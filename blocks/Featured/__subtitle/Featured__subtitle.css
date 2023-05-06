@@ -1,7 +1,7 @@
 .Featured__subtitle {
   font-style: normal;
   font-weight: 400;
-  font-size: calc(17px + 6 * (100vw / 1440));
+  font-size: calc(13px + 10 * (100vw / 1440));
   line-height: 130%;
 
   text-align: center;

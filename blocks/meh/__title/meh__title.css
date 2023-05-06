@@ -10,3 +10,8 @@
   color: #ffffff;
   margin: 0;
 }
+@media screen and (max-width: 580px) {
+  .meh__title {
+    text-align: center;
+  }
+}

@@ -12,3 +12,8 @@
   margin-top: calc(56% / (1440 / 100));
   margin-bottom: calc(104% / (1440 / 100));
 }
+@media screen and (max-width: 768px) {
+  .footer__cont {
+    flex-direction: column;
+  }
+}
