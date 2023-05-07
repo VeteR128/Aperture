@@ -1,3 +1,5 @@
 .active {
   visibility: visible;
+  opacity: 0.96;
+  transition: all ease-in-out 0.5s;
 }

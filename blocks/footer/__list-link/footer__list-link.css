@@ -3,10 +3,16 @@
   font-weight: 400;
   font-size: calc(7px + 7 * (100vw / 1440));
   line-height: 143%;
-
+  text-decoration: none;
   color: #ffffff;
   margin-bottom: 10px;
+  transition: all 1s ease;
 }
 .footer__list-link:last-child {
   margin-bottom: 0;
+}
+.footer__list-link:hover {
+  opacity: 0.7;
+
+  transition: all 1s ease;
 }

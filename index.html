@@ -17,15 +17,15 @@
         <img class="header__logo" src="images/logo.svg" alt="logo" />
         <nav class="header__navigation">
           <img class="header__menu" src="images/menu.png" alt="menu" />
-          <a class="header__link" href="">Business areas</a>
-          <a class="header__link" href="">Featured images</a>
-          <a class="header__link" href="">Gear cage </a>
-          <a class="header__link" href="">Contact</a>
+          <a class="header__link" href="#Business">Business areas</a>
+          <a class="header__link" href="#Featured">Featured images</a>
+          <a class="header__link" href="#Gear">Gear cage </a>
+          <a class="header__link" href="#Contact">Contact</a>
           <button class="header__button">Get template</button>
         </nav>
       </header>
       <main class="main">
-        <section class="about">
+        <section class="about" id="Business">
           <h1 class="about__title">Photographer & Filmmaker</h1>
           <h2 class="about__subtitle">Aperture Studios</h2>
           <p class="about__paragraph">
@@ -66,13 +66,13 @@
             </li>
           </ul>
         </section>
-        <section class="Featured">
+        <section class="Featured" id="Featured">
           <h2 class="Featured__title">What we do.</h2>
           <h3 class="Featured__subtitle">
             The areas that we're specialized in.
           </h3>
           <div class="Featured__cards">
-            <div class="Featured__card">
+            <div class="Featured__card" id="Product">
               <p class="Featured__card-title">Product Photography</p>
               <p class="Featured__card-subtitle">
                 Cras commodo consequat orci, in convallis risus egestas non.
@@ -81,7 +81,7 @@
               </p>
               <button class="Featured__card-button">Read more</button>
             </div>
-            <div class="Featured__card">
+            <div class="Featured__card" id="Architecture">
               <p class="Featured__card-title">Architecture Photography</p>
               <p class="Featured__card-subtitle">
                 Aenean porta neque eget consequat fringilla. Vestibulum
@@ -91,7 +91,7 @@
               </p>
               <button class="Featured__card-button">Read more</button>
             </div>
-            <div class="Featured__card">
+            <div class="Featured__card" id="Drone">
               <p class="Featured__card-title">Drone Photography</p>
               <p class="Featured__card-subtitle">
                 Mauris euismod elit et nisi ultrices, ut faucibus orci
@@ -102,7 +102,7 @@
               </p>
               <button class="Featured__card-button">Read more</button>
             </div>
-            <div class="Featured__card">
+            <div class="Featured__card" id="Wildlife">
               <p class="Featured__card-title">Wildlife Photography</p>
               <p class="Featured__card-subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -154,7 +154,7 @@
             </li>
           </ul>
         </section>
-        <section class="gear">
+        <section class="gear" id="Gear">
           <div class="gear__container">
             <div class="gear__info">
               <h3 class="gear__title">The Gear cage</h3>
@@ -322,7 +322,7 @@
           <button class="help__button">Get in touch</button>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="Contact">
         <div class="footer__info">
           <div class="footer__info-container">
             <img class="footer__logo" src="images/logo.svg" alt="logo" />
@@ -333,19 +333,25 @@
           <div class="footer__container">
             <nav class="footer__list">
               <h3 class="footer__list-title">Business areas</h3>
-              <a class="footer__list-link">Product Photography</a>
-              <a class="footer__list-link">Architecture Photography</a>
-              <a class="footer__list-link">Drone Photography</a>
-              <a class="footer__list-link">Wildlife Photography</a>
+              <a class="footer__list-link" href="#Product"
+                >Product Photography</a
+              >
+              <a class="footer__list-link" href="#Architecture"
+                >Architecture Photography</a
+              >
+              <a class="footer__list-link" href="#Drone">Drone Photography</a>
+              <a class="footer__list-link" href="#Wildlife"
+                >Wildlife Photography</a
+              >
             </nav>
             <nav class="footer__list">
               <h3 class="footer__list-title">Pages</h3>
-              <a class="footer__list-link">Gear cage</a>
-              <a class="footer__list-link">Featured images</a>
-              <a class="footer__list-link">Contact</a>
-              <a class="footer__list-link">Style guide</a>
-              <a class="footer__list-link">Instructions</a>
-              <a class="footer__list-link">Changelog</a>
+              <a class="footer__list-link" href="#">Gear cage</a>
+              <a class="footer__list-link" href="#">Featured images</a>
+              <a class="footer__list-link" href="#">Contact</a>
+              <a class="footer__list-link" href="#">Style guide</a>
+              <a class="footer__list-link" href="#">Instructions</a>
+              <a class="footer__list-link" href="#">Changelog</a>
             </nav>
           </div>
         </div>
@@ -368,13 +374,13 @@
             <a class="footer__lis" href="">Licensing</a>
           </div>
           <nav class="footer__navigation">
-            <a class="footer__link" href=""
+            <a class="footer__link" href="#"
               ><img class="footer__img" src="images/bird.svg" alt="bird"
             /></a>
-            <a class="footer__link" href=""
+            <a class="footer__link" href="#"
               ><img class="footer__img" src="images/inst.svg" alt="inst"
             /></a>
-            <a class="footer__link" href=""
+            <a class="footer__link" href="#"
               ><img class="footer__img" src="images/face.svg" alt="face"
             /></a>
           </nav>
@@ -383,13 +389,13 @@
       <div class="popup">
         <div class="popup__container">
           <button class="popup__button">
-            <img class="popup__img" src="images/krest.png" alt="close" />
+            <img class="popup__img" src="images/kkrest.svg" alt="close" />
           </button>
           <div class="popup__links">
-            <a class="popup__link" href="">Business areas</a>
-            <a class="popup__link" href="">Featured images</a>
-            <a class="popup__link" href="">Gear cage </a>
-            <a class="popup__link" href="">Contact</a>
+            <a class="popup__link" href="#Business">Business areas</a>
+            <a class="popup__link" href="#Featured">Featured images</a>
+            <a class="popup__link" href="#Gear">Gear cage </a>
+            <a class="popup__link" href="#Contact">Contact</a>
           </div>
         </div>
       </div>
