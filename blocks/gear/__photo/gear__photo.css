@@ -2,13 +2,12 @@
   background-image: url(../../../images/gearBg.jpg);
   background-position: center center;
   background-size: cover;
-  display: flex;
-  justify-content: end;
-  align-items: flex-end;
+  display: -webkit-flex;
+  -webkit-justify-content: end;
+  -webkit-align-items: end;
 }
 @media screen and (max-width: 653px) {
   .gear__photo .about__container {
-    display: flex;
     flex-direction: column;
   }
   .gear__photo .about__container .about__mark {
