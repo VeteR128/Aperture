@@ -6,23 +6,20 @@
 
   display: -ms-flexbox;
 
-  display: flex;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: end;
+
   -webkit-box-align: end;
   -ms-flex-align: end;
-  align-items: flex-end;
 }
 @media screen and (max-width: 653px) {
   .gear__photo .about__container {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
   }
   .gear__photo .about__container .about__mark {
     margin-bottom: 15px;
